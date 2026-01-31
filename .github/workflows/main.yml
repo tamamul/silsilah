@@ -17,7 +17,7 @@ jobs:
 
       - run: zip -r silsilah-ready.zip .
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: silsilah
           path: silsilah-ready.zip
